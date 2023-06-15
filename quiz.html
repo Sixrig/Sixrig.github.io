@@ -1,0 +1,71 @@
+<!Doctype html>
+<html lang = "en">
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title></title>
+	<!--
+	Nathan Bowling
+	CSCE 102
+	Section 1
+	May 10 2023
+	-->
+</head>
+<body>
+	<header>
+	<h1>Nathan Bowling</h1>
+	<nav id="main_nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="quiz.html">Quiz</a></li>
+			<li><a href="contact_me.html">Contact Me</a></li>
+		</ul>
+	</nav>
+	</header>
+	<div>
+		<p>
+			<label for = "q1">The forth value in RGBA is...</label>
+			<select id = "q1">
+				<option value = "Feb.12"> Saturation</option>
+				<option value = "correct"> Transparency</option>
+				<option value = "Feb.26"> Color Warmth</option>
+				<option value = "Mar.5"> Color Gradient</option>
+			</select>
+		</p>
+		<p>
+			<label for = "q2">You place the link for a page's Javascript in...</label>
+			<select id = "q2">
+				<option value = "Feb.12"> Immediately below each script in the HTML</option>
+				<option value = "Feb.19"> The Header</option>
+				<option value = "correct"> The Footer</option>
+				<option value = "Mar.5"> The Head</option>
+			</select>
+		</p>
+		<p>
+			<label for = "q3">You can inspect this page's HTML (and only the HTML) with...</label>
+			<select id = "q3">
+				<option value = "correct"> View Page Source</option>
+				<option value = "Feb.19"> Task Manager</option>
+				<option value = "Feb.26"> Developer Tools</option>
+				<option value = "Mar.5"> View HTML</option>
+			</select>
+		</p>
+		<p>
+			<label for = "q4">The symbol to call a class from HTML to style in CSS is...</label>
+			<select id = "q4">
+				<option value = "Feb.12"> "&"</option>
+				<option value = "Feb.19"> "$"</option>
+				<option value = "Feb.26"> "#"</option>
+				<option value = "correct"> "."</option>
+			</select>
+		</p>
+		<p>
+		<button onclick="submit()"><h3>Submit</h3></button>
+		</p>
+		<div id = result class = "hidden"></div>
+	</div>
+	<footer>
+		<p>Copyright Nathan Bowling</p>
+		<script src = "script.js"></script>
+	</footer>
+</body>
+</html>
